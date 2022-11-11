@@ -1,8 +1,14 @@
-import React from 'react';
+import React ,{Component} from 'react';
 class Findx extends Component {
+
+
+
   render() {
     const x = 34;
-    return <div>{x}</div>;
+    return (
+    <div>{x}</div>
+    
+    );
   }
 }
 

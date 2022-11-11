@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 import Findx from './Findx';
+import Foo from './Foo';
 
 class App extends Component {
   constructor() {
@@ -26,6 +27,7 @@ class App extends Component {
         <Hello name={this.state.title} />
 
         <Findx />
+        <Foo/>
       </div>
     );
   }
