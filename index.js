@@ -4,13 +4,14 @@ import Hello from './Hello';
 import './style.css';
 import Findx from './Findx';
 import Foo from './Foo';
+import Goblind from './Goblind';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
       // name: 'React',
-      title: 'rabi pati',
+      title: '=',
 
       name: console.log('how'),
     };
@@ -27,7 +28,8 @@ class App extends Component {
         <Hello name={this.state.title} />
 
         <Findx />
-        <Foo/>
+        <Foo />
+        <Goblind />
       </div>
     );
   }
