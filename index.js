@@ -31,7 +31,7 @@ class App extends Component {
         <Findx />
         <Foo />
         <Goblind />
-        <Axi />
+        {/* <Axi /> */}
       </div>
     );
   }
