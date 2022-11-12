@@ -5,6 +5,7 @@ import './style.css';
 import Findx from './Findx';
 import Foo from './Foo';
 import Goblind from './Goblind';
+import Axi from './Axi';
 
 class App extends Component {
   constructor() {
@@ -30,6 +31,7 @@ class App extends Component {
         <Findx />
         <Foo />
         <Goblind />
+        <Axi />
       </div>
     );
   }
